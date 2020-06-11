@@ -16,6 +16,7 @@ object kafkawordcount {
   wordCounts.print()   //prints the wordcount result of the stream
   ssc.start()
   ssc.awaitTermination()
+  // is this program working
 
  }
 
